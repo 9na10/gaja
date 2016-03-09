@@ -1,0 +1,168 @@
+body {
+  background: #efefef;
+}
+header, .name, .offer, .cars, .partnership, .mix, .contact_hours {
+  background: #ffffff;
+}
+h1 {
+  position: absolute;
+  width: 187px;
+  height: 82px;
+  left: 47px;
+  bottom: 10px;
+  text-indent: -9999px;
+  background: url(img/logo_gaja.svg) 0 0 no-repeat;
+}
+h2 {
+  border-bottom: solid 1px #eee;
+  text-align: left;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+  padding: 0 0 3px 0;
+  text-transform: uppercase;
+  color: #999;
+}
+a, .menu, .offer, .cars, .partnership, .mix, address, .hours {
+  color: #666666;
+}
+header {
+  height: 123px;
+  width: 1180px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 15px #aaa;
+}
+.menu {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding: 70px 10px 0px 10px;
+  font-size: 20px;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+  ļ
+}
+.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+section:not(.maps) {
+  width: 1180px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px #aaa;
+}
+.photo_plac {
+  background-image: url("img/plac.jpg");
+}
+.photo_dachowki {
+  background-image: url("img/dachowki.jpg");
+}
+.photo_plac, .photo_dachowki {
+  height: 220px;
+  width: 588px;
+  background-repeat: no-repeat;
+  display:inline-block;
+}
+.content{
+  width: 1180px;
+}
+.name {
+  font-size: 15px;
+  float:left;
+  margin: 15px 0 10px 0;
+  padding: 15px;
+  width: 45%;
+  text-align: center;
+  background-color: #2c276c;
+  color: #fff;
+  box-shadow: 0 0 5px #ccc;
+}
+.offer, address, .hours {
+  width: 50%;
+}
+.offer {
+  float: right;
+  list-style-type: none;
+  margin: 15px 0 0 0;
+  padding: 15px;
+  box-shadow: 0 0 5px #ccc;
+}
+.offer > li {
+  margin-top: 20px;
+}
+.offer > li:nth-child(1) {
+  margin-top: 0;
+}
+.offer ul {
+  padding: 0px;
+}
+.offer ul li {
+  display: inline-block;
+}
+.offer ul li img {
+  height: 20px;
+  margin: 10px;
+}
+.cars, .partnership, .mix {
+  width: 48%;
+  box-shadow: 0 0 5px #ccc;
+}
+.cars {
+  float: left;
+  margin: 10px 0 0 0;
+  padding: 15px;
+  text-align: center;
+}
+.partnership {
+  float:left;
+}
+.partnership, .mix {
+  padding: 15px;
+  margin-top: 15px;
+}
+#partnership a {
+  text-decoration: underline;
+}
+.mix {
+  margin-top: 15px;
+  float: left;
+  clear: left;
+}
+.clearfix {
+  position: relative;
+  width: 100%;
+  clear: both;
+}
+#contact_hours {
+  margin-top: 25px;
+  padding: 15px;
+}
+address {
+  display: inline-block;
+}
+.hours {
+  float: right;
+  padding: 0 0 70px 30px;
+  display: inline-block;
+}
+.maps {
+  padding: 10px 10px 10px 0;
+  clear: both;
+}
+.contact_rent {
+  text-decoration: underline;
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
+.offer ul.fundamenty li, ul.docieplenia li {
+  display: block;
+}
+ul li img {
+  height: 20px;
+}
