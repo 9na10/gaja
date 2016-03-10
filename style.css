@@ -1,14 +1,21 @@
 body {
   background: #efefef;
 }
-.name, .offer, .cars, .partnership, .mix, .contact_hours {
+.top, .cars, .partnership, .mix, .contact_hours, .offer {
   background: #ffffff;
+  box-shadow: 0 0 5px #ccc;
+}
+ .top {
+  height: 123px;
+}
+.col-md-6, col-md-4 {
+  padding: 0 0 0 0;
 }
 h1 {
   width: 187px;
   height: 82px;
-  left: 47px;
-  bottom: 10px;
+  margin-left: 32px;
+  margin-bottom: 2px;
   text-indent: -9999px;
   background: url(img/logo_gaja.svg) 0 0 no-repeat;
 }
@@ -20,6 +27,11 @@ h2 {
   padding: 0 0 3px 0;
   text-transform: uppercase;
   color: #999;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 450;
 }
 a, .menu, .offer, .cars, .partnership, .mix, address, .hours {
   color: #666666;
@@ -42,10 +54,9 @@ a:visited {
   text-decoration: none;
 }
 
-  /*box-shadow: 0 0 15px #aaa;*/
-
 .photo_plac {
   background-image: url("img/plac.jpg");
+  border-right: 5px white solid;
 }
 .photo_dachowki {
   background-image: url("img/dachowki.jpg");
@@ -71,15 +82,6 @@ a:visited {
   padding: 15px;
   box-shadow: 0 0 5px #ccc;
 }
-.offer > li {
-  margin-top: 20px;
-}
-.offer > li:nth-child(1) {
-  margin-top: 0;
-}
-.offer ul {
-  padding: 0px;
-}
 .offer ul li {
   display: inline-block;
 }
@@ -87,8 +89,11 @@ a:visited {
   height: 20px;
   margin: 10px;
 }
-.cars, .partnership, .mix {
-  box-shadow: 0 0 5px #ccc;
+ .name {
+  width: 90%;
+}
+.cars, .partnership, .mix, .contact_hours {
+  width: 95%;
 }
 .cars {
   margin: 10px 0 0 0;
@@ -105,8 +110,8 @@ a:visited {
 .mix {
   margin-top: 15px;
 }
-#contact_hours {
-  margin-top: 25px;
+.contact_hours {
+  margin-top: 15px;
   padding: 15px;
 }
 address {
@@ -123,6 +128,16 @@ address {
   text-decoration: underline;
 }
 iframe {
-  width: 100%;
+  width: 90%;
   height: 400px;
+  margin-top: 15px;
+}
+.offer div h3 {
+  float:left;
+}
+.offer div ul li {
+  float:right;
+}
+.offer div {
+  clear:both;
 }
