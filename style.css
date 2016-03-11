@@ -25,25 +25,26 @@ h2 {
   font-size: 1em;
   margin: 0 0 20px 0;
   padding: 0 0 3px 0;
-  text-transform: uppercase;
   color: #999;
 }
-h3 {
+h2, h3 {
   text-transform: uppercase;
+}
+h3 {
   font-size: 14px;
   font-weight: 450;
 }
 a, .menu, .offer, .cars, .partnership, .mix, address, .hours {
   color: #666666;
 }
-
+.menu, a:visited {
+  text-decoration: none;
+}
 .menu {
   text-align: right;
   padding: 70px 10px 0px 10px;
   font-size: 18px;
   font-family: 'Asap', sans-serif;
-  text-decoration: none;
-  ļ
 }
 .menu li {
   display: inline-block;
@@ -51,9 +52,7 @@ a, .menu, .offer, .cars, .partnership, .mix, address, .hours {
 }
 a:visited {
   color: #666666;
-  text-decoration: none;
 }
-
 .photo_plac {
   background-image: url("img/plac.jpg");
   border-right: 5px white solid;
@@ -83,58 +82,47 @@ a:visited {
   box-shadow: 0 0 5px #ccc;
 }
  .name {
-  width: 90%;
+  width: 92%;
+}
+.cars, .partnership, .mix, .contact_hours, iframe {
+  width: 97%;
 }
 .cars, .partnership, .mix, .contact_hours {
-  width: 95%;
+  padding: 15px;
 }
 .cars {
   margin: 10px 0 0 0;
-  padding: 15px;
   text-align: center;
 }
 .partnership, .mix {
-  padding: 15px;
   margin-top: 15px;
 }
-#partnership a {
+#partnership a, .contact_rent {
   text-decoration: underline;
 }
-.mix {
+.mix, .contact_hours, iframe {
   margin-top: 15px;
 }
-.contact_hours {
-  margin-top: 15px;
-  padding: 15px;
-}
-address {
+address, .hours, .offer div ul li {
   display: inline-block;
 }
 .hours {
   padding: 0 0 70px 30px;
-  display: inline-block;
 }
 .maps {
   padding: 10px 10px 10px 0;
 }
-.contact_rent {
-  text-decoration: underline;
-}
 iframe {
-  width: 90%;
-  height: 400px;
-  margin-top: 15px;
+  height: 510px;
+}
+.offer div h3, .offer div ul{
+  float:left;
 }
 .offer div h3 {
-  float:left;
   width: 25%;
-}
-.offer div ul {
-  float: left;
 }
 .offer div ul li {
   float:right;
-  display: inline-block;
 }
 .offer ul li img {
   height: 26px;
