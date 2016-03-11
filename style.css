@@ -82,13 +82,6 @@ a:visited {
   padding: 15px;
   box-shadow: 0 0 5px #ccc;
 }
-.offer ul li {
-  display: inline-block;
-}
-.offer ul li img {
-  height: 20px;
-  margin: 10px;
-}
  .name {
   width: 90%;
 }
@@ -134,9 +127,18 @@ iframe {
 }
 .offer div h3 {
   float:left;
+  width: 30%;
+}
+.offer div ul {
+  float: left;
 }
 .offer div ul li {
   float:right;
+  display: inline-block;
+}
+.offer ul li img {
+  height: 26px;
+  margin: 10px;
 }
 .offer div {
   clear:both;
