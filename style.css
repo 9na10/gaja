@@ -1,7 +1,7 @@
 body {
   background: #efefef;
 }
-.top, .cars, .partnership, .mix, .contact_hours, .offer {
+.name, .top, .cars, .partnership, .mix, .contact_hours, .offer {
   background: #ffffff;
   box-shadow: 0 0 5px #ccc;
 }
@@ -127,4 +127,19 @@ iframe {
 }
 .offer div {
   clear:both;
+}
+@media only screen and (max-width: 992px) {
+    .photo_plac, .photo_dachowki {
+      display: none;
+    }
+    .menu {
+     float: left;
+   }
+   .top {
+     height:auto;
+   }
+   .name, .top, .menu {
+    width: 97%;
+    margin: 0 0 0 0;
+  }
 }
