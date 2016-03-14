@@ -5,6 +5,9 @@ body {
   background: #ffffff;
   box-shadow: 0 0 5px #ccc;
 }
+.container {
+  box-shadow: 0 0 5px #ccc;
+}
  .top {
   height: 123px;
 }
